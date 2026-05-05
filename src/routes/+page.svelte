@@ -3,7 +3,7 @@
 		{
 			href: '/aesthetics',
 			label: 'Aesthetics',
-			desc: 'Browse City Pop and its 11 related aesthetic movements'
+			desc: 'Browse City Pop and its 12 related aesthetic movements'
 		},
 		{
 			href: '/graph',
@@ -55,9 +55,8 @@
 		align-items: center;
 		justify-content: center;
 		padding: 2rem;
-		background: #0a0a12;
-		color: #f0ece0;
-		font-family: 'Georgia', serif;
+		background: var(--bg);
+		color: var(--text);
 	}
 
 	header {
@@ -69,13 +68,13 @@
 		font-size: clamp(2.5rem, 8vw, 5rem);
 		font-weight: 400;
 		letter-spacing: 0.08em;
-		color: #f9c784;
+		color: var(--accent);
 		margin: 0 0 0.75rem;
 	}
 
 	.tagline {
 		font-size: 1rem;
-		color: #a09880;
+		color: var(--text-dim);
 		letter-spacing: 0.04em;
 		max-width: 40ch;
 		margin: 0 auto;
@@ -95,9 +94,9 @@
 		flex-direction: column;
 		gap: 0.3rem;
 		padding: 1.25rem 1.5rem;
-		border: 1px solid #2a2a3a;
+		border: 1px solid var(--border);
 		border-radius: 4px;
-		background: #13131f;
+		background: var(--bg-card);
 		text-decoration: none;
 		color: inherit;
 		position: relative;
@@ -105,20 +104,20 @@
 	}
 
 	.card:hover {
-		border-color: #f9c784;
-		background: #1a1a2a;
+		border-color: var(--border-hover);
+		background: var(--bg-hover);
 	}
 
 	.label {
 		font-size: 1.1rem;
 		font-weight: 600;
-		color: #f9c784;
+		color: var(--accent);
 		letter-spacing: 0.04em;
 	}
 
 	.desc {
 		font-size: 0.875rem;
-		color: #7a7868;
+		color: var(--text-dim);
 		line-height: 1.4;
 	}
 
@@ -127,10 +126,10 @@
 		top: 1rem;
 		right: 1.25rem;
 		font-size: 1rem;
-		color: #4a4858;
+		color: var(--text-faint);
 	}
 
 	.card:hover .external-mark {
-		color: #f9c784;
+		color: var(--accent);
 	}
 </style>

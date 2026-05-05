@@ -11,12 +11,11 @@
 		gold: '#d4a017', 'neon yellow': '#d9f321', green: '#4ade80', 'lime green': '#84cc16',
 		cyan: '#22d3ee', 'neon blue': '#3b82f6', blue: '#60a5fa', 'baby blue': '#93c5fd',
 		purple: '#a855f7', violet: '#8b5cf6', magenta: '#d946ef', silver: '#94a3b8',
-		chrome: '#cbd5e1', 'neon purple': '#c026d3', teal: '#2dd4bf', 'neon green': '#4ade80',
-		'pastel pink': '#fbcfe8', 'pastel blue': '#bfdbfe', 'pastel yellow': '#fef08a',
-		brown: '#a16207', grey: '#6b7280', gray: '#6b7280', beige: '#e5d5b0',
-		cream: '#fdf6e3', coral: '#f87171', turquoise: '#2dd4bf', amber: '#f59e0b',
+		chrome: '#cbd5e1', 'neon purple': '#c026d3', teal: '#2dd4bf', amber: '#f59e0b',
 		'warm brown': '#92400e', 'muted orange': '#c2410c', 'deep green': '#166534',
-		'off-white': '#fafaf0'
+		'off-white': '#fafaf0', grey: '#6b7280', gray: '#6b7280', beige: '#e5d5b0',
+		cream: '#fdf6e3', coral: '#f87171', turquoise: '#2dd4bf', 'pastel pink': '#fbcfe8',
+		'pastel blue': '#bfdbfe', 'neon green': '#4ade80'
 	};
 
 	function parseColours(str: string | null | undefined): string[] {
@@ -29,12 +28,11 @@
 		for (const [key, hex] of Object.entries(colourMap)) {
 			if (lower.includes(key)) return hex;
 		}
-		return '#333';
+		return '#555';
 	}
 
 	const colours = parseColours(ib.key_colours);
 
-	// Infobox rows to display (label, value)
 	const infoRows: [string, string][] = [
 		['Decade of origin', ib.decade_of_origin ?? ''],
 		['Location of origin', ib.location_of_origin ?? ''],
@@ -115,7 +113,7 @@
 				{/each}
 
 				{#if ib.related_aesthetics && ib.related_aesthetics.length > 0}
-					<div class="info-row related-row">
+					<div class="info-row">
 						<span class="label">Related aesthetics</span>
 						<div class="related-tags">
 							{#each ib.related_aesthetics as rel}
@@ -139,9 +137,8 @@
 <style>
 	.page {
 		min-height: 100vh;
-		background: #0a0a12;
-		color: #f0ece0;
-		font-family: 'Georgia', serif;
+		background: var(--bg);
+		color: var(--text);
 		padding: 2rem;
 	}
 
@@ -151,18 +148,15 @@
 	}
 
 	.back {
-		color: #a09880;
+		color: var(--text-muted);
 		text-decoration: none;
 		font-size: 0.85rem;
 		letter-spacing: 0.04em;
 	}
 
-	.back:hover { color: #f9c784; }
+	.back:hover { color: var(--accent); }
 
-	article {
-		max-width: 1100px;
-		margin: 0 auto;
-	}
+	article { max-width: 1100px; margin: 0 auto; }
 
 	.colour-bar {
 		display: flex;
@@ -188,7 +182,7 @@
 	h1 {
 		font-size: 2.5rem;
 		font-weight: 400;
-		color: #f9c784;
+		color: var(--accent);
 		letter-spacing: 0.05em;
 		margin: 0 0 1.5rem;
 	}
@@ -196,7 +190,7 @@
 	.intro p {
 		font-size: 0.95rem;
 		line-height: 1.75;
-		color: #c8c4b4;
+		color: var(--text-muted);
 		margin: 0 0 1rem;
 	}
 
@@ -208,7 +202,7 @@
 		font-size: 0.75rem;
 		text-transform: uppercase;
 		letter-spacing: 0.1em;
-		color: #f9c784;
+		color: var(--accent);
 		margin: 0 0 0.6rem;
 		font-weight: 600;
 	}
@@ -221,15 +215,14 @@
 
 	.list-section li {
 		font-size: 0.875rem;
-		color: #a09880;
+		color: var(--text-muted);
 		padding: 0.25rem 0;
-		border-bottom: 1px solid #1a1a2a;
+		border-bottom: 1px solid var(--border);
 	}
 
-	/* Infobox */
 	aside.infobox {
-		background: #13131f;
-		border: 1px solid #2a2a3a;
+		background: var(--bg-card);
+		border: 1px solid var(--border);
 		border-radius: 4px;
 		padding: 1.25rem;
 		font-size: 0.8rem;
@@ -255,11 +248,11 @@
 		font-size: 0.7rem;
 	}
 
-	.colour-name { color: rgba(255,255,255,0.7); }
+	.colour-name { color: rgba(255,255,255,0.75); }
 
 	.info-row {
 		padding: 0.6rem 0;
-		border-top: 1px solid #1e1e2e;
+		border-top: 1px solid var(--border);
 	}
 
 	.label {
@@ -267,12 +260,12 @@
 		font-size: 0.68rem;
 		text-transform: uppercase;
 		letter-spacing: 0.08em;
-		color: #f9c784;
+		color: var(--accent);
 		margin-bottom: 0.25rem;
 	}
 
 	.value {
-		color: #a09880;
+		color: var(--text-muted);
 		line-height: 1.5;
 	}
 
@@ -285,8 +278,8 @@
 
 	.tag {
 		font-size: 0.72rem;
-		color: #a09880;
-		border: 1px solid #2a2a3a;
+		color: var(--text-muted);
+		border: 1px solid var(--border);
 		border-radius: 2px;
 		padding: 0.15rem 0.5rem;
 		text-decoration: none;
@@ -294,21 +287,21 @@
 	}
 
 	.tag:hover {
-		border-color: #f9c784;
-		color: #f9c784;
+		border-color: var(--accent);
+		color: var(--accent);
 	}
 
 	.wiki-link {
 		margin-top: 1rem;
 		padding-top: 0.75rem;
-		border-top: 1px solid #1e1e2e;
+		border-top: 1px solid var(--border);
 	}
 
 	.wiki-link a {
 		font-size: 0.75rem;
-		color: #4a4858;
+		color: var(--text-faint);
 		text-decoration: none;
 	}
 
-	.wiki-link a:hover { color: #f9c784; }
+	.wiki-link a:hover { color: var(--accent); }
 </style>

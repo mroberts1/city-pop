@@ -1,0 +1,47 @@
+/* Global CSS custom properties for light/dark theming */
+
+:root,
+[data-theme='dark'] {
+	--bg:         #0a0a12;
+	--bg-card:    #13131f;
+	--bg-hover:   #1a1a2a;
+	--border:     #2a2a3a;
+	--border-hover: #f9c784;
+	--text:       #f0ece0;
+	--text-muted: #a09880;
+	--text-dim:   #7a7868;
+	--text-faint: #4a4858;
+	--accent:     #f9c784;
+	--accent-dim: #c4985a;
+}
+
+[data-theme='light'] {
+	--bg:         #f5f0e8;
+	--bg-card:    #ffffff;
+	--bg-hover:   #ece8df;
+	--border:     #d4cfc4;
+	--border-hover: #b07d2a;
+	--text:       #1a1612;
+	--text-muted: #5a5040;
+	--text-dim:   #7a7060;
+	--text-faint: #a09880;
+	--accent:     #b07d2a;
+	--accent-dim: #8a6020;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+html {
+	background: var(--bg);
+	color: var(--text);
+	transition: background 0.2s, color 0.2s;
+}
+
+body {
+	margin: 0;
+	font-family: 'Georgia', serif;
+}
