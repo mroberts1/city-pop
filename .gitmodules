@@ -1,0 +1,3 @@
+[submodule "endless-summer"]
+	path = endless-summer
+	url = https://github.com/mroberts1/endless-summer.git
