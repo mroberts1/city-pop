@@ -1,0 +1,42 @@
+{
+  "name": "Wamono",
+  "slug": "wamono",
+  "url": "https://aesthetics.fandom.com/wiki/Wamono",
+  "intro": [
+    "Wamono (和物, literally 'Japanese things') is a musical and visual aesthetic rooted in the Japanese jazz, soul, funk, and bossa nova recordings of the late 1960s and 1970s. The term was originally used by Japanese record collectors and crate-diggers to describe domestic pressings that blended Western groove music with traditional Japanese instrumentation, pentatonic scales, and lyrical sensibility.",
+    "As an aesthetic, Wamono is defined by a particular quality of warmth and melancholy — the sound of a modernizing Japan filtered through analog tape, kissaten coffee shop culture, and the visual language of mid-century Japanese graphic design. It sits at the intersection of City Pop, jazz kissa, and the broader Japanese vintage revival."
+  ],
+  "infobox": {
+    "decade_of_origin": "Late 1960s–1970s",
+    "location_of_origin": "Japan",
+    "key_motifs": "Analog warmth, kissaten culture, vintage Japanese record sleeves, tatami and neon coexisting, crate-digging, wabi-sabi modernism",
+    "key_colours": "Amber, warm brown, cream, muted orange, deep green, off-white",
+    "key_values": "Analog authenticity, cultural fusion, quiet intimacy, the beauty of the everyday",
+    "related_aesthetics": ["City Pop", "Lo-Fi", "Shibuya-Kei", "New Romantic"],
+    "related_media": "Jazz kissa playlists, Nippon Columbia and King Records pressings, Ryo Fukui's Scenery (1976), Shigeo Sekito's The Word (1976)",
+    "iconic_figures": "Ryo Fukui, Haruomi Hosono, Shigeo Sekito, Kimiko Kasai, Sadao Watanabe"
+  },
+  "sections": ["Music", "Visual Identity", "Kissaten Culture", "Influence on City Pop"],
+  "lists": {
+    "Artists": [
+      "Ryo Fukui",
+      "Shigeo Sekito",
+      "Kimiko Kasai",
+      "Sadao Watanabe",
+      "Haruomi Hosono",
+      "Takeshi Inomata",
+      "Hiroshi Suzuki"
+    ],
+    "Albums": [
+      "Ryo Fukui — Scenery (1976)",
+      "Shigeo Sekito — The Word (1976)",
+      "Kimiko Kasai — Butterfly (1978)",
+      "Hiroshi Suzuki — Cat (1976)",
+      "Takeshi Inomata — Super Session (1974)"
+    ]
+  },
+  "gallery_count": 0,
+  "categories": ["1970s", "Japanese", "Music-Driven"],
+  "scraped_at": null,
+  "note": "Hand-curated entry — no page exists on aesthetics.fandom.com as of May 2026."
+}
