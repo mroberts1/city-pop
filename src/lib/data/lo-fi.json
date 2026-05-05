@@ -50,5 +50,22 @@
   "name": "Lo-Fi",
   "slug": "lo-fi",
   "url": "https://aesthetics.fandom.com/wiki/Lo-Fi",
-  "scraped_at": "2026-05-04T00:27:11.875037+00:00"
+  "scraped_at": "2026-05-04T00:27:11.875037+00:00",
+  "sources": [
+    {
+      "label": "Aesthetics Wiki: Lo-Fi",
+      "url": "https://aesthetics.fandom.com/wiki/Lo-Fi",
+      "type": "wiki"
+    },
+    {
+      "label": "Wikipedia: Lo-fi music",
+      "url": "https://en.wikipedia.org/wiki/Lo-fi_music",
+      "type": "wiki"
+    },
+    {
+      "label": "RateYourMusic: Lo-Fi",
+      "url": "https://rateyourmusic.com/genre/lo-fi/",
+      "type": "database"
+    }
+  ]
 }

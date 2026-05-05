@@ -82,5 +82,22 @@
   "name": "Future Funk",
   "slug": "future-funk",
   "url": "https://aesthetics.fandom.com/wiki/Future_Funk",
-  "scraped_at": "2026-05-04T00:27:06.902959+00:00"
+  "scraped_at": "2026-05-04T00:27:06.902959+00:00",
+  "sources": [
+    {
+      "label": "Aesthetics Wiki: Future Funk",
+      "url": "https://aesthetics.fandom.com/wiki/Future_Funk",
+      "type": "wiki"
+    },
+    {
+      "label": "Wikipedia: Future Funk",
+      "url": "https://en.wikipedia.org/wiki/Future_funk",
+      "type": "wiki"
+    },
+    {
+      "label": "RateYourMusic: Future Funk",
+      "url": "https://rateyourmusic.com/genre/future-funk/",
+      "type": "database"
+    }
+  ]
 }

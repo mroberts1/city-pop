@@ -113,5 +113,22 @@
   "name": "Yé-yé",
   "slug": "ye-ye",
   "url": "https://aesthetics.fandom.com/wiki/Yé-yé",
-  "scraped_at": "2026-05-04T00:27:41.091364+00:00"
+  "scraped_at": "2026-05-04T00:27:41.091364+00:00",
+  "sources": [
+    {
+      "label": "Aesthetics Wiki: Yé-yé",
+      "url": "https://aesthetics.fandom.com/wiki/Y%C3%A9-y%C3%A9",
+      "type": "wiki"
+    },
+    {
+      "label": "Wikipedia: Yé-yé",
+      "url": "https://en.wikipedia.org/wiki/Y%C3%A9-y%C3%A9",
+      "type": "wiki"
+    },
+    {
+      "label": "RateYourMusic: Yé-yé",
+      "url": "https://rateyourmusic.com/genre/ye-ye/",
+      "type": "database"
+    }
+  ]
 }

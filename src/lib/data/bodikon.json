@@ -96,5 +96,17 @@
   "name": "Bodikon",
   "slug": "bodikon",
   "url": "https://aesthetics.fandom.com/wiki/Bodikon",
-  "scraped_at": "2026-05-04T00:27:02.234121+00:00"
+  "scraped_at": "2026-05-04T00:27:02.234121+00:00",
+  "sources": [
+    {
+      "label": "Aesthetics Wiki: Bodikon",
+      "url": "https://aesthetics.fandom.com/wiki/Bodikon",
+      "type": "wiki"
+    },
+    {
+      "label": "Wikipedia: Bodycon fashion",
+      "url": "https://en.wikipedia.org/wiki/Bodycon_fashion",
+      "type": "wiki"
+    }
+  ]
 }

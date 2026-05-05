@@ -207,5 +207,27 @@
   "name": "Cyberpunk",
   "slug": "cyberpunk",
   "url": "https://aesthetics.fandom.com/wiki/Cyberpunk",
-  "scraped_at": "2026-05-03T23:09:57.162963+00:00"
+  "scraped_at": "2026-05-03T23:09:57.162963+00:00",
+  "sources": [
+    {
+      "label": "Aesthetics Wiki: Cyberpunk",
+      "url": "https://aesthetics.fandom.com/wiki/Cyberpunk",
+      "type": "wiki"
+    },
+    {
+      "label": "Wikipedia: Cyberpunk",
+      "url": "https://en.wikipedia.org/wiki/Cyberpunk",
+      "type": "wiki"
+    },
+    {
+      "label": "Neon Dystopia",
+      "url": "https://www.neondystopia.com",
+      "type": "other"
+    },
+    {
+      "label": "r/Cyberpunk",
+      "url": "https://www.reddit.com/r/Cyberpunk/",
+      "type": "community"
+    }
+  ]
 }

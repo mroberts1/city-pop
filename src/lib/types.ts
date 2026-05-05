@@ -12,6 +12,12 @@ export interface Infobox {
 	[key: string]: string | string[] | undefined;
 }
 
+export interface Source {
+	label: string;
+	url: string;
+	type: 'wiki' | 'academic' | 'community' | 'database' | 'radio' | 'other';
+}
+
 export interface AestheticData {
 	name: string;
 	slug: string;
@@ -22,5 +28,7 @@ export interface AestheticData {
 	lists: Record<string, string[]>;
 	gallery_count: number;
 	categories: string[];
-	scraped_at: string;
+	scraped_at: string | null;
+	note?: string;
+	sources?: Source[];
 }

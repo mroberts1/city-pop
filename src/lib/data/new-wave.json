@@ -209,5 +209,22 @@
   "name": "New Wave",
   "slug": "new-wave",
   "url": "https://aesthetics.fandom.com/wiki/New_Wave",
-  "scraped_at": "2026-05-04T00:27:26.383797+00:00"
+  "scraped_at": "2026-05-04T00:27:26.383797+00:00",
+  "sources": [
+    {
+      "label": "Aesthetics Wiki: New Wave",
+      "url": "https://aesthetics.fandom.com/wiki/New_Wave",
+      "type": "wiki"
+    },
+    {
+      "label": "Wikipedia: New Wave music",
+      "url": "https://en.wikipedia.org/wiki/New_wave_music",
+      "type": "wiki"
+    },
+    {
+      "label": "RateYourMusic: New Wave",
+      "url": "https://rateyourmusic.com/genre/new-wave/",
+      "type": "database"
+    }
+  ]
 }

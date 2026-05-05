@@ -12,11 +12,21 @@
     "key_motifs": "Analog warmth, kissaten culture, vintage Japanese record sleeves, tatami and neon coexisting, crate-digging, wabi-sabi modernism",
     "key_colours": "Amber, warm brown, cream, muted orange, deep green, off-white",
     "key_values": "Analog authenticity, cultural fusion, quiet intimacy, the beauty of the everyday",
-    "related_aesthetics": ["City Pop", "Lo-Fi", "Shibuya-Kei", "New Romantic"],
+    "related_aesthetics": [
+      "City Pop",
+      "Lo-Fi",
+      "Shibuya-Kei",
+      "New Romantic"
+    ],
     "related_media": "Jazz kissa playlists, Nippon Columbia and King Records pressings, Ryo Fukui's Scenery (1976), Shigeo Sekito's The Word (1976)",
     "iconic_figures": "Ryo Fukui, Haruomi Hosono, Shigeo Sekito, Kimiko Kasai, Sadao Watanabe"
   },
-  "sections": ["Music", "Visual Identity", "Kissaten Culture", "Influence on City Pop"],
+  "sections": [
+    "Music",
+    "Visual Identity",
+    "Kissaten Culture",
+    "Influence on City Pop"
+  ],
   "lists": {
     "Artists": [
       "Ryo Fukui",
@@ -36,7 +46,23 @@
     ]
   },
   "gallery_count": 0,
-  "categories": ["1970s", "Japanese", "Music-Driven"],
+  "categories": [
+    "1970s",
+    "Japanese",
+    "Music-Driven"
+  ],
   "scraped_at": null,
-  "note": "Hand-curated entry — no page exists on aesthetics.fandom.com as of May 2026."
+  "note": "Hand-curated entry — no page exists on aesthetics.fandom.com as of May 2026.",
+  "sources": [
+    {
+      "label": "Wikipedia: Japanese jazz",
+      "url": "https://en.wikipedia.org/wiki/Jazz_in_Japan",
+      "type": "wiki"
+    },
+    {
+      "label": "RateYourMusic: Wamono",
+      "url": "https://rateyourmusic.com/genre/wamono/",
+      "type": "database"
+    }
+  ]
 }

@@ -76,5 +76,22 @@
   "name": "City Pop",
   "slug": "city-pop",
   "url": "https://aesthetics.fandom.com/wiki/City_Pop",
-  "scraped_at": "2026-05-04T00:26:07.318754+00:00"
+  "scraped_at": "2026-05-04T00:26:07.318754+00:00",
+  "sources": [
+    {
+      "label": "Aesthetics Wiki: City Pop",
+      "url": "https://aesthetics.fandom.com/wiki/City_Pop",
+      "type": "wiki"
+    },
+    {
+      "label": "Wikipedia: City Pop",
+      "url": "https://en.wikipedia.org/wiki/City_pop",
+      "type": "wiki"
+    },
+    {
+      "label": "RateYourMusic: City Pop",
+      "url": "https://rateyourmusic.com/genre/city-pop/",
+      "type": "database"
+    }
+  ]
 }

@@ -156,5 +156,17 @@
   "name": "Memphis Design",
   "slug": "memphis-design",
   "url": "https://aesthetics.fandom.com/wiki/Memphis_Design",
-  "scraped_at": "2026-05-04T00:27:16.760073+00:00"
+  "scraped_at": "2026-05-04T00:27:16.760073+00:00",
+  "sources": [
+    {
+      "label": "Aesthetics Wiki: Memphis Design",
+      "url": "https://aesthetics.fandom.com/wiki/Memphis_Design",
+      "type": "wiki"
+    },
+    {
+      "label": "Wikipedia: Memphis Group",
+      "url": "https://en.wikipedia.org/wiki/Memphis_Group",
+      "type": "wiki"
+    }
+  ]
 }

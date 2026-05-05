@@ -138,5 +138,27 @@
   "name": "Synthwave",
   "slug": "synthwave",
   "url": "https://aesthetics.fandom.com/wiki/Synthwave",
-  "scraped_at": "2026-05-04T00:27:35.920241+00:00"
+  "scraped_at": "2026-05-04T00:27:35.920241+00:00",
+  "sources": [
+    {
+      "label": "Aesthetics Wiki: Synthwave",
+      "url": "https://aesthetics.fandom.com/wiki/Synthwave",
+      "type": "wiki"
+    },
+    {
+      "label": "Wikipedia: Synthwave",
+      "url": "https://en.wikipedia.org/wiki/Synthwave",
+      "type": "wiki"
+    },
+    {
+      "label": "RateYourMusic: Synthwave",
+      "url": "https://rateyourmusic.com/genre/synthwave/",
+      "type": "database"
+    },
+    {
+      "label": "r/Synthwave",
+      "url": "https://www.reddit.com/r/synthwave/",
+      "type": "community"
+    }
+  ]
 }

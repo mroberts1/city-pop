@@ -164,5 +164,32 @@
   "name": "Vaporwave",
   "slug": "vaporwave",
   "url": "https://aesthetics.fandom.com/wiki/Vaporwave",
-  "scraped_at": "2026-05-03T23:10:06.989567+00:00"
+  "scraped_at": "2026-05-03T23:10:06.989567+00:00",
+  "sources": [
+    {
+      "label": "Aesthetics Wiki: Vaporwave",
+      "url": "https://aesthetics.fandom.com/wiki/Vaporwave",
+      "type": "wiki"
+    },
+    {
+      "label": "Wikipedia: Vaporwave",
+      "url": "https://en.wikipedia.org/wiki/Vaporwave",
+      "type": "wiki"
+    },
+    {
+      "label": "RateYourMusic: Vaporwave",
+      "url": "https://rateyourmusic.com/genre/vaporwave/",
+      "type": "database"
+    },
+    {
+      "label": "Nightwave Plaza (internet radio)",
+      "url": "https://plaza.one",
+      "type": "radio"
+    },
+    {
+      "label": "r/Vaporwave",
+      "url": "https://www.reddit.com/r/Vaporwave/",
+      "type": "community"
+    }
+  ]
 }

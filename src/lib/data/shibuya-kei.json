@@ -94,5 +94,22 @@
   "name": "Shibuya-Kei",
   "slug": "shibuya-kei",
   "url": "https://aesthetics.fandom.com/wiki/Shibuya-Kei",
-  "scraped_at": "2026-05-04T00:27:31.097304+00:00"
+  "scraped_at": "2026-05-04T00:27:31.097304+00:00",
+  "sources": [
+    {
+      "label": "Aesthetics Wiki: Shibuya-Kei",
+      "url": "https://aesthetics.fandom.com/wiki/Shibuya-Kei",
+      "type": "wiki"
+    },
+    {
+      "label": "Wikipedia: Shibuya-kei",
+      "url": "https://en.wikipedia.org/wiki/Shibuya-kei",
+      "type": "wiki"
+    },
+    {
+      "label": "RateYourMusic: Shibuya-Kei",
+      "url": "https://rateyourmusic.com/genre/shibuya-kei/",
+      "type": "database"
+    }
+  ]
 }

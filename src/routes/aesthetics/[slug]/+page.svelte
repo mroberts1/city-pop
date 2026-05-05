@@ -131,6 +131,20 @@
 				{/if}
 			</aside>
 		</div>
+
+		{#if a.sources && a.sources.length > 0}
+			<section class="further-reading">
+				<h2>Further Reading</h2>
+				<ul>
+					{#each a.sources as src}
+						<li class="source-item">
+							<span class="source-type source-type--{src.type}">{src.type}</span>
+							<a href={src.url} target="_blank" rel="noopener noreferrer">{src.label}</a>
+						</li>
+					{/each}
+				</ul>
+			</section>
+		{/if}
 	</article>
 </div>
 
@@ -304,4 +318,66 @@
 	}
 
 	.wiki-link a:hover { color: var(--accent); }
+
+	/* Further Reading */
+	.further-reading {
+		margin-top: 3rem;
+		padding-top: 2rem;
+		border-top: 1px solid var(--border);
+	}
+
+	.further-reading h2 {
+		font-size: 1rem;
+		font-weight: 600;
+		color: var(--accent);
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		margin: 0 0 1rem;
+	}
+
+	.further-reading ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		flex-direction: column;
+		gap: 0.6rem;
+	}
+
+	.source-item {
+		display: flex;
+		align-items: baseline;
+		gap: 0.75rem;
+		font-size: 0.875rem;
+	}
+
+	.source-item a {
+		color: var(--text-muted);
+		text-decoration: none;
+		border-bottom: 1px solid var(--border);
+		transition: color 0.15s, border-color 0.15s;
+	}
+
+	.source-item a:hover {
+		color: var(--accent);
+		border-bottom-color: var(--accent);
+	}
+
+	.source-type {
+		font-size: 0.62rem;
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		padding: 0.15rem 0.45rem;
+		border-radius: 2px;
+		flex-shrink: 0;
+		font-family: monospace;
+	}
+
+	.source-type--wiki       { background: #1e3a5f; color: #7ec8e8; }
+	.source-type--academic   { background: #2d1e5f; color: #a78bfa; }
+	.source-type--community  { background: #1e3d2a; color: #7ec8a0; }
+	.source-type--database   { background: #3d2e1e; color: #d4a76a; }
+	.source-type--radio      { background: #3d1e2e; color: #e8a0b4; }
+	.source-type--other      { background: #2a2a2a; color: #888888; }
+
 </style>

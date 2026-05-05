@@ -72,5 +72,22 @@
   "name": "New Romantic",
   "slug": "new-romantic",
   "url": "https://aesthetics.fandom.com/wiki/New_Romantic",
-  "scraped_at": "2026-05-04T00:27:21.614516+00:00"
+  "scraped_at": "2026-05-04T00:27:21.614516+00:00",
+  "sources": [
+    {
+      "label": "Aesthetics Wiki: New Romantic",
+      "url": "https://aesthetics.fandom.com/wiki/New_Romantic",
+      "type": "wiki"
+    },
+    {
+      "label": "Wikipedia: New Romanticism",
+      "url": "https://en.wikipedia.org/wiki/New_Romanticism_(music)",
+      "type": "wiki"
+    },
+    {
+      "label": "RateYourMusic: New Romantic",
+      "url": "https://rateyourmusic.com/genre/new-romantic/",
+      "type": "database"
+    }
+  ]
 }
